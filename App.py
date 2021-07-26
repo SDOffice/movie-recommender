@@ -51,9 +51,9 @@ movie = Recommender()
 # In[9]:
 
 
-# # Serializing
-# with open('movie.pkl', 'wb') as handle:
-#     pickle.dump(movie, handle, pickle.HIGHEST_PROTOCOL)
+# Serializing
+with open('movie.pkl', 'wb') as handle:
+    pickle.dump(movie, handle, pickle.HIGHEST_PROTOCOL)
 
 
 # In[ ]:
